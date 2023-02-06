@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21A7E572991BFD80093D8DF /* BBWalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A7E562991BFD80093D8DF /* BBWalUITestsLaunchTests.swift */; };
+		A21A7E592991BFF30093D8DF /* BBWalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21A7E582991BFF20093D8DF /* BBWalUITests.swift */; };
 		F924C30D297EC6900087DFCD /* BBWalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F924C30C297EC6900087DFCD /* BBWalApp.swift */; };
 		F924C30F297EC6900087DFCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F924C30E297EC6900087DFCD /* ContentView.swift */; };
 		F924C311297EC6910087DFCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F924C310297EC6910087DFCD /* Assets.xcassets */; };
 		F924C314297EC6910087DFCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F924C313297EC6910087DFCD /* Preview Assets.xcassets */; };
 		F924C31E297EC6910087DFCD /* BBWalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F924C31D297EC6910087DFCD /* BBWalTests.swift */; };
-		F924C328297EC6910087DFCD /* BBWalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F924C327297EC6910087DFCD /* BBWalUITests.swift */; };
-		F924C32A297EC6910087DFCD /* BBWalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F924C329297EC6910087DFCD /* BBWalUITestsLaunchTests.swift */; };
 		F924C339297EC8140087DFCD /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F924C338297EC8140087DFCD /* CreateAccountView.swift */; };
 		F924C33C297EC91A0087DFCD /* Step1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F924C33B297EC91A0087DFCD /* Step1.swift */; };
 		F924C33E297EC91E0087DFCD /* Step2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F924C33D297EC91E0087DFCD /* Step2.swift */; };
@@ -88,6 +88,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A21A7E562991BFD80093D8DF /* BBWalUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BBWalUITestsLaunchTests.swift; path = Archive/BBWalUITests/BBWalUITestsLaunchTests.swift; sourceTree = SOURCE_ROOT; };
+		A21A7E582991BFF20093D8DF /* BBWalUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BBWalUITests.swift; path = Archive/BBWalUITests/BBWalUITests.swift; sourceTree = SOURCE_ROOT; };
 		F924C309297EC6900087DFCD /* BBWal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BBWal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F924C30C297EC6900087DFCD /* BBWalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBWalApp.swift; sourceTree = "<group>"; };
 		F924C30E297EC6900087DFCD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,8 +98,6 @@
 		F924C319297EC6910087DFCD /* BBWalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBWalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F924C31D297EC6910087DFCD /* BBWalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBWalTests.swift; sourceTree = "<group>"; };
 		F924C323297EC6910087DFCD /* BBWalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBWalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F924C327297EC6910087DFCD /* BBWalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBWalUITests.swift; sourceTree = "<group>"; };
-		F924C329297EC6910087DFCD /* BBWalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BBWalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F924C338297EC8140087DFCD /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		F924C33B297EC91A0087DFCD /* Step1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step1.swift; sourceTree = "<group>"; };
 		F924C33D297EC91E0087DFCD /* Step2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Step2.swift; sourceTree = "<group>"; };
@@ -230,8 +230,8 @@
 		F924C326297EC6910087DFCD /* BBWalUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F924C327297EC6910087DFCD /* BBWalUITests.swift */,
-				F924C329297EC6910087DFCD /* BBWalUITestsLaunchTests.swift */,
+				A21A7E582991BFF20093D8DF /* BBWalUITests.swift */,
+				A21A7E562991BFD80093D8DF /* BBWalUITestsLaunchTests.swift */,
 			);
 			path = BBWalUITests;
 			sourceTree = "<group>";
@@ -770,8 +770,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F924C328297EC6910087DFCD /* BBWalUITests.swift in Sources */,
-				F924C32A297EC6910087DFCD /* BBWalUITestsLaunchTests.swift in Sources */,
+				A21A7E592991BFF30093D8DF /* BBWalUITests.swift in Sources */,
+				A21A7E572991BFD80093D8DF /* BBWalUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
